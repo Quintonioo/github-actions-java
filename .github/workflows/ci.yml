@@ -35,5 +35,3 @@ jobs:
         docker compose up -d
         curl -f http://localhost:8080/api/health || exit 1
         docker compose down
-        
-
