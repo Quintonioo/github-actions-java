@@ -33,9 +33,9 @@ jobs:
         ./mvnw clean package -DskipTests
         
 
-        - name Build Everything
-        run: |
-          docker compose build app
-          docker compose up -d
-          curl -f http://localhost:8080/api/health || exit 1
-          docker compose down
+    - name: Build Everything
+      run: |
+        docker compose build app
+        docker compose up -d
+        curl -f http://localhost:8080/api/health || exit 1
+        docker compose down
