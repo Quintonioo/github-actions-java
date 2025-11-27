@@ -1,6 +1,6 @@
 # DevOps Training Project
 
-A Spring Boot application designed for DevOps training with linting, testing, and CI/CD pipeline examples.
+A Spring Boot application designed for DevOps training with linting, testing, and CI/CD pipeline examples. Test
 
 ## Project Structure
 
